@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN: sqa_ff82da7b810e9d481f375740275d57fa415d79f3
+          SONAR_TOKEN: squ_d5c27337ecd271dcce45272fb30237cb7d473514
           SONAR_HOST_URL: https://chvd.eu.ngrok.io
         with:
           args:
